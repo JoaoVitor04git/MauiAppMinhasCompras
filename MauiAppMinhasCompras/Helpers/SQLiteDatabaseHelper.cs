@@ -1,12 +1,9 @@
 ﻿using MauiAppMinhasCompras.Models;
 using SQLite;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MauiAppMinhasCompras.Helpers
 {
-    internal class SQLiteDatabaseHelper
+    public class SQLiteDatabaseHelper
     {
         readonly SQLiteAsyncConnection _conn;
         public SQLiteDatabaseHelper(string path)
